@@ -1,11 +1,10 @@
-import Map from '../../components/navebar/map/map';
-import Card from '../../components/navebar/card/Card';
-import Filter from '../../components/navebar/filter/Filter';
+
 import { listData } from '../../lib/dummydata';
 import './listPage.scss';
-// import Filter from '../../components/navebar/filter/Filter';
-// import Card from '../../components/navebar/card/Card';
-// import Map from '../../components/navebar/map/Map';
+import Map from '../../components/map/map';
+import Card from '../../components/card/Card';
+import Filter from '../../components/filter/Filter';
+
 
 function ListPage() {
     const data = listData;
